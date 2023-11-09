@@ -1,0 +1,62 @@
+
+    /* Custom styles for the navigation bar */
+    .navbar {
+      background-color: #000; /* Black background color */
+      padding-top: 10px;
+      padding-bottom: 10px;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+      transition: background-color 0.3s ease; /* Smooth transition effect for background color */
+    }
+
+    .navbar-brand {
+      color: #fff !important; /* White text color */
+    }
+
+    .navbar-nav .nav-link {
+      color: #000 !important; /* Black text color */
+      background-color: #fff !important; /* White background color */
+    }
+
+    .navbar-nav .nav-link:hover {
+      color: #fff !important; /* White text color on hover */
+      background-color: #000 !important; /* Black background color on hover */
+    }
+
+    .navbar-toggler-icon {
+      background-color: #fff; /* White background color for the toggler icon */
+    }
+
+    .navbar-toggler {
+      border-color: #fff; /* White border color for the toggler button */
+    }
+
+    /* Custom styles for the Programs page */
+    body {
+      background-color: #f8f9fa; /* Light background color */
+      color: #343a40; /* Bootstrap dark text color */
+    }
+
+    h2 {
+      color: #007BFF; /* Bootstrap primary color */
+    }
+
+    p.lead {
+      font-size: 1.25rem;
+      color: #6C757D; /* Bootstrap secondary color */
+    }
+
+    .container {
+      background-color: #fff; /* White background color for the container */
+      border-radius: 8px; /* Rounded corners */
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Box shadow for a subtle lift */
+      padding: 20px; /* Padding inside the container */
+      margin-top: 20px; /* Margin from the top */
+    }
+
+    img.img-fluid {
+      border-radius: 8px; /* Rounded corners for images */
+      margin-bottom: 20px; /* Margin at the bottom of images */
+    }
+  
